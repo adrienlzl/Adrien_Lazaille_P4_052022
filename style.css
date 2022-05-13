@@ -438,6 +438,7 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    filter: contrast(1.75);
 }
 
 .mg-lg {
@@ -447,6 +448,7 @@ nav .caret {
 
 .btn {
     margin: 0 5px 5px 0;
+    filter: contrast(1.75);
 }
 
 .btn.pull-right {
@@ -737,6 +739,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    filter: contrast(1.75);
 }
 
 .portfolio-thumb {
@@ -1026,6 +1029,9 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .btn {
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 400px) {
@@ -1039,4 +1045,16 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+.center-block {
+    width: 100px;
+}
+.col-sm-12, .col-xs-12 {
+    max-width: 100%;
+}
+.keywords {
+    filter: contrast(1.75);
+}
+col-sm-4 {
+    filter: contrast(1.75);
 }
