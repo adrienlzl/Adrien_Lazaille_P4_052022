@@ -715,7 +715,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #333333;
 }
 
 .med-width-whitespace {
@@ -804,12 +804,12 @@ h4 {
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #c27956;
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
+    color: #364577;
+    border-color: #364577;
 }
 
 .bg-dots-bg {
@@ -1055,6 +1055,6 @@ h4 {
 .keywords {
     filter: contrast(1.75);
 }
-col-sm-4 {
-    filter: contrast(1.75);
+.col-sm-4 a {
+    color: black!important;
 }
