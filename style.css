@@ -91,7 +91,6 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -679,7 +678,8 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .tight-width-whitespace {
@@ -756,7 +756,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 40px 40px 40px 40px;
 }
 
@@ -816,9 +816,6 @@ h4 {
     background-image: url("img/dots-bg.png");
 }
 
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-}
 
 .bg-banniere {
     background-image: url("img/imgdestop/agence-la-panthere.jpg");
@@ -1057,4 +1054,11 @@ h4 {
 }
 .col-sm-4 a {
     color: black!important;
+}
+.citation {
+    font-size: 20px;
+    font-weight: 800;
+}
+.citation_legende {
+    font-size: 16px;
 }
