@@ -1086,6 +1086,8 @@ h4 {
 .form {
     text-align: center;
 }
-.form label {
-    text-align: right;
+@media (max-width: 767px) {
+    .form {
+        text-align: left;
+    }
 }
