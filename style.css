@@ -1090,4 +1090,11 @@ h4 {
     .form {
         text-align: left;
     }
+    #h_contact {
+        display: flex;
+        flex-direction: column;
+    }
+    .header_contact a{
+        padding: 15px 20%;
+    }
 }
